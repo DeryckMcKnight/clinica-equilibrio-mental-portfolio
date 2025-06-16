@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://equilibriomental.com.br/sitemap.xml
+
+# Disallow sensitive areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*.xml$
+
+# Allow important pages
+Allow: /
+Allow: /sobre
+Allow: /equipe
+Allow: /servicos
+Allow: /blog
+Allow: /agendamento
+Allow: /contato
+Allow: /politica-privacidade
+
+# Crawl delay (optional)
+Crawl-delay: 1
+
