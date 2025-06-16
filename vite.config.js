@@ -5,7 +5,8 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(),tailwindcss()],
+  base: '/clinica-equilibrio-mental-portfolio/',  // <- coloque aqui o nome do repositório
+  plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
