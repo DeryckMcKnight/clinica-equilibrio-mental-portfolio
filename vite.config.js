@@ -5,7 +5,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/clinica-equilibrio-mental-portfolio/',  // <- coloque aqui o nome do repositório
+  base: '/clinica-equilibrio-mental-portfolio/',  // <- nome do repositório no GitHub
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
